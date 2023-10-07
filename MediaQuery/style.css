@@ -67,7 +67,7 @@ h1 {
     color: black;
     font-size: 20px;
     width: 500px;
-    /* max-width: 100%; */
+    max-width: 100%;
   }
   .all .right .text::after{
     bottom: 0;
@@ -75,5 +75,8 @@ h1 {
     border: 1px solid brown;
     display: block;
     width: 30%;
+  }
+  .all .left {
+    max-width: 100%;
   }
 }
